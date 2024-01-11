@@ -1,6 +1,6 @@
 object Form14: TForm14
-  Left = 219
-  Top = 157
+  Left = 225
+  Top = 185
   Width = 928
   Height = 480
   Caption = 'Main Menu'

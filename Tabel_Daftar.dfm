@@ -1,6 +1,6 @@
 object Form3: TForm3
-  Left = 211
-  Top = 155
+  Left = 193
+  Top = 224
   Width = 928
   Height = 480
   Caption = 'Daftar'
@@ -108,7 +108,6 @@ object Form3: TForm3
     ControlsCodePage = cGET_ACP
     UTF8StringsAsWideField = False
     AutoEncodeStrings = False
-    Connected = True
     HostName = 'localhost'
     Port = 3306
     Database = 'apotek'
@@ -122,7 +121,6 @@ object Form3: TForm3
   end
   object zqry1: TZQuery
     Connection = con1
-    Active = True
     SQL.Strings = (
       'select * from user')
     Params = <>

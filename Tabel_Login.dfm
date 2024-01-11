@@ -1,6 +1,6 @@
 object Form2: TForm2
-  Left = 186
-  Top = 168
+  Left = 175
+  Top = 154
   Width = 928
   Height = 480
   Caption = 'Login'
@@ -71,7 +71,6 @@ object Form2: TForm2
   end
   object zqry1: TZQuery
     Connection = con1
-    Active = True
     SQL.Strings = (
       'select * from user')
     Params = <>
@@ -82,7 +81,6 @@ object Form2: TForm2
     ControlsCodePage = cGET_ACP
     UTF8StringsAsWideField = False
     AutoEncodeStrings = False
-    Connected = True
     HostName = 'localhost'
     Port = 3306
     Database = 'apotek'
